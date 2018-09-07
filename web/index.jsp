@@ -5,12 +5,16 @@
   Time: 20:00
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.util.*" language="java" pageEncoding="UTF-8" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$ qwe
-  </body>
+<head>
+    <title>小窗口</title>
+</head>
+<body>
+<center>
+    <form action="<%=request.getContextPath()%>/html" ethod="POST">
+        <input type="submit"value="提交">
+    </form>
+</center>
+</body>
 </html>
