@@ -12,6 +12,7 @@ public class DBHelper {
 
 //    public static final String url = "jdbc:mysql://localhost:3306/students_manage";
     public static final String url = "jdbc:mysql://localhost:3306/students_manage?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC";
+//    public static final String name = "com.mysql.jdbc.Driver";
     public static final String name = "com.mysql.cj.jdbc.Driver";
     public static final String user = "root";
     public static final String password = "root";

@@ -1,7 +1,6 @@
 package action.student;
 
 import business.StudentBusiness;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import json.core.ListObject;
 import json.responseUtils.ResponseUtils;
 import json.status.StatusHouse;
